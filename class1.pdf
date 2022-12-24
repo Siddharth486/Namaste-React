@@ -1,0 +1,43 @@
+Q1. What is Emmet?
+Ans1. Emmet general definition is ek chota sa keyword/word/shortcut likhenge usse hamara  code generate ho jayega eg: like in html we write html and enter we get the code.
+
+Q2.Difference between a Library and Framework?
+Ans2. Framework means: usme humme many times,vo sab milega to make our application
+      Library: Library is a piece of code.
+
+Q3.What is CDN? Why do we use it?
+Ans3. CDN: A CDN (content delivery network), also called a content distribution network, is a group of geographically distributed and interconnected servers, kyonki ye provide karte hai  cached internet content from a network location closest to a user to speed up its delivery.
+
+we use it to deliver/load the webpages fastly as if server is located very far 1000's km definitely it's speed will be slower.
+
+Q4.Why React known as React?
+Ans4. React was developed for applications (Facebook) that have constantly changing data. Since React is a front-end framework or the “View” in MVC, this means that as the user clicks around and changes the app’s data, the view should “react” or change with those user events. User events being mouse clicks, typing, submitting a form.
+
+iska matlab jab user click kare like events mouse se, keyboard se usse kuch changes dikhe 
+
+the view should “react” or change with those user events.
+
+Q5.What is crossorigin in script tag?
+Ans5. The crossorigin attribute sets the mode of the request to an HTTP CORS Request.
+ crossorigin kya karta hai share resources from one domain to another domain via webAPI.
+
+Q6. What is diference between React and ReactDOM?
+Ans6. React : React is library piece of code written by facebook engineers written in facebook so we can use css, html, js together.
+
+whereas ReactDOM: as We different versions of react like app, web ReactDOM (Document Object Model)
+manipulate karta hai dom ko (elements in browser)
+
+Q7. What is difference between react.development.js and react.production.js files via CDN?
+Ans7. size ka difference hai production version is much lighter compare to development.
+
+Q8. What is async and defer? - see my Youtube video :0
+*****Yes, that's right, parsing basically means "reading the code" and executing basically means "running the code".*****
+
+Ans8. async , defer jaan ne se pehle 
+      a)html parsing aise hoti hai ki pehle html load hui jaise hi script tag mila vaha ruk gayi html parsing and script tag ko pehle load kiya fir usse execute kiya fir html parsing continue kari
+      b) using async attribute :
+      html parsing huyi saath hi parallel mai script load kardi fir script execute huyi uske baad html parsing continue kari
+      c) defer attribute is best why?
+      html parsing ke time parallel mai script load huyi and html parsing continues and at last script execute huyi.
+
+      question arise why script executes first and even html keeps on parsing? do google
