@@ -1,0 +1,75 @@
+# Theory Assignment
+Q1.- What is npm?
+Ans1. npm use to share and borrow packages. world largest software registry
+
+Q2.-What is Parcel/webpack? Why do we need it?
+Ans2. Parcel/Webpack is a bundler which bundles our code, to make our code production ready.
+We need it bcz of following reasons:
+/*
+**
+  1)created a new server
+  2)HMR - Hot Module Reloading
+  3)File Watcher Algorithm -made using C++
+  4)BUNDLING
+  5)MINIFY
+  6)Cleaning our Code(removing console logs)
+  7)Dev and Production Build
+  8)Super Fast Build algorithm
+  9)Image optimization
+  10)Caching while development
+  11)Compression
+  12)Compatible with older versions
+  13)HTTPS on dev
+  14)port Number changes for different local servers 
+  15)Consistent Hashing Algorithm
+  16)Zero Config
+**
+*/
+
+Q3.-What is `.parcel-cache`?
+Ans3. when 1st time we use npx parcel our-entry-point. It takes time but, then it creates parcel-cache for faster loading.
+
+Q4.- What is `npx` ?
+Ans4.  execute npm,
+without installing any package we can run the npm package from npm-registry using npx.
+
+Q5.- What is difference between `dependencies` vs `devDependencies`?
+**** ek baar lecture aur dekh*******
+Ans5. 1st aana chahiye, dependency hoti hai kin packages ki dependency hai hamare project       par  jo ki locate hai hamare package.json mai.
+     dependencies vs devDependencies
+      a) In dependencies when we install any package with command npm i package-name goes into 
+      dependencies but, when we install any package with command npm i --D package-name goes into
+      devDependencies
+
+      b)"dependencies": Packages required by your application in production, and humme uska version change nahi karna.
+      "devDependencies": Packages that are only needed for local development and testing, and version can be update.
+
+      c) "dependencies": vaale packages ke versions fixed rehte hai but in "devDependencies" ke version update hote hai in package-lock.json when new version will come.
+
+Q6.-What is Tree Shaking?
+Ans6. naam se hi pata chal raha hai DEAD-CODE ELIMINATION, jo code humne export nahi kiya for
+ eg: export function square(x) {
+       return x * x;
+      }
+
+      export function cube(x) {
+        return x * x * x;
+      }
+  
+      ab maine cube toh ek file mai import kiya but, square nahi kiya toh ab bundler kya karega clean         kardega code from build. isse hata dega.
+
+Q7.- What is Hot Module Replacement?
+Ans7. Hot Module Replacement (HMR) exchanges, adds, or removes modules while an application is running, without a full reload.
+
+Q8.- What is `.gitignore`? What should we add and not add into it?
+Ans8. .gitignore is file jisme mention karte hai vo files and folders jo ki git par upload nahi karna hai. kyonki unka size bada hota hai fir bahut time lag jaata hai
+
+  Hum un files/folders ko gitignore mai daalte hai jinhe hum khud se regenerate kar sakte hai 
+  eg: node_modules 
+
+Q9.- What is the difference between `package.json` and `package-lock.json`?
+Ans9. 
+
+Q10. kya humme package-lock.json gitignore mai daalna chahiye ya nahi aur kyon?
+Q11. why to include .parcel-cache in .gitignore?
+Q12. agar hum dev mai use karenge parcel ko toh production mai kya hoga?
