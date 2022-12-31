@@ -8,3 +8,4 @@ const heading2 = React.createElement('h1', {}, "har har mahadev ji")
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render([heading, heading1, heading2])
+
