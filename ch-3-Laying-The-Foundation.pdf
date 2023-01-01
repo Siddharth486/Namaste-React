@@ -1,0 +1,28 @@
+Q1- What is JSX?
+Ans1. JSX is HTML like syntax inside Javascript.
+
+Q2. Superpowers of JSX.
+Ans2. a) Makes code more Readable.
+      b) Makes code developer's friendly
+      c) easier to understand
+      d) protects from cross-side scripting attack
+
+Q3. Role of type attribute in script tag? What options can i use there? //learn again from google
+Ans3. type in script tag defines the what type of script is. is it module 
+  options:
+    1) async: classic script will be fetched in parallel to parsing   
+    2)crossorigin
+    3)defer
+    4)fetchpriority
+    5)integrity
+    6)nomodule
+    7)
+
+Q4.{TitleComponent} vs {<TitleComponent/>}  vs {<TitleComponent></TitleComponent>} in JSX
+Ans4.
+  {TitleComponent} : react element inside {}
+  {<TitleComponent/>} : React component inside 
+
+  Note: When we render one component inside another component is composing component.
+  Functional Components: is simply JS function.
+  Components: doubt check it.
