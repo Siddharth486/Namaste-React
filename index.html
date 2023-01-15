@@ -28,17 +28,20 @@
   <script>
     // console.log(React);
     // console.log(ReactDOM);
-    // const heading = React.createElement('h1', {}, "namaste ji")
-    // const heading1 = React.createElement('h1', {}, "ram ram ji")
-    // const heading2 = React.createElement('h1', {}, "har har mahadev ji")
-
-    // const root = ReactDOM.createRoot(document.getElementById('root'))
-    // root.render([heading, heading1, heading2])
-    const heading = React.createElement("h1", {}, "Namaste Everyone"); //it's a react element 
+    // const heading = React.createElement("h1", {}, "Namaste Everyone"); //it's a react element
     // console.log(heading);
-    const root = ReactDOM.createRoot(document.getElementById('root'))
+    // const root = ReactDOM.createRoot(document.getElementById('root'))
     //passing a react element
-    root.render(heading)
+    // root.render(heading)
+
+
+    const heading = React.createElement('h1', {}, "namaste")
+    const heading1 = React.createElement('h2', {}, "to")
+    const heading2 = React.createElement('h3', {}, "everyone")
+    const div = React.createElement('div', {}, [heading, heading1, heading2])
+
+    const root = ReactDOM.createRoot(document.getElementById('root'))
+    root.render(div)
   </script>
 </body>
 
